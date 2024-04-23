@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(155, 151, 130);
+}
+
+.islands {
+    display: flex;
+    flex-wrap: wrap;
+    border-style:double;
+    border-color: rgb(207, 144, 61);
+    border-width: 20px;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(69, 67, 21);
+}
+
+.startPage{
+
+
+    background-color: rgb(155, 151, 130);
+
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    border-style:solid;
+    border-width:5px;
+    border-color: rgb(69, 37, 15);
+    width: 25em;
+    height: 30em;
+    margin: 2vw;
+    margin-bottom: 20px;
+    background-color: rgb(207, 144, 61);
+
+}
+
+.visibleimage {
+    position: relative;
+    width: 100%;
+    height: 77%;
+}
+
+.invisibleimage1 {
+    position: absolute;
+    margin-top: 8em;
+    margin-left: -20em;
+    width: 14em;
+    opacity: 0.0;
+}
+
+.invisibleimage2 {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: -25em;
+    width: 25em;
+    opacity: 0.0;
+}
+
+h3 {
+    margin: 15px;
+    margin-top: -1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    color: rgb(104, 44, 44);
+}
+
+.btn{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    font-size: large;
+    background-color: rgb(156, 100, 48);
+    color: rgb(248, 248, 248);
+    width: 100%;
+    height: 3em;
+    border-radius: 0px;
+    margin-top: -100px;
+}
+.btn:hover {
+    background-color: hsl(22, 75%, 26%);
+    width: 100%;
+
+
+
+}
+
+.h1 {
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(82, 50, 16);
+
+}
+
+
+
+.startbtn{
+    margin-top: -4em;
+    margin-left: 37em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    font-size: large;
+    background-color: rgb(156, 100, 48);
+    color: rgb(248, 248, 248);
+    width: 17em;
+    height: 3em;
+    border-radius: 10px;
+
+}
+.startbtn:hover{
+    background-color: hsl(22, 75%, 26%);
+    width: 17em;
+}
+#startimg{
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: -3em;
+    margin-left: 19em;
+    width: 65em;
+    height: 42em;;
+}
+
+.startTitle {
+    margin-left: 14em;
+    margin-top: -10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    color: rgb(82, 50, 16);
+
+
+}
